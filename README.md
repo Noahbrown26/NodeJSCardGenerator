@@ -11,7 +11,7 @@
   * [Questions](#questions)
   
   ## Installation
-  * Git clone the repository
+  * ``git clone`` the repository
   * Open a Node terminal and run the command ``npm install`` to install required packages
   * Run the command ``Node index.js`` to initiate the card generator
   * Your ``index.html`` file should be created after all prompts are filled out
