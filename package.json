@@ -1,0 +1,27 @@
+{
+  "name": "nodejscardgenerator",
+  "version": "1.0.0",
+  "description": "A command line NodeJS application that will generate a card template with information the user inputs",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noahbrown26/NodeJSCardGenerator.git"
+  },
+  "author": "Noah Brown",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Noahbrown26/NodeJSCardGenerator/issues"
+  },
+  "homepage": "https://github.com/Noahbrown26/NodeJSCardGenerator#readme",
+  "dependencies": {
+    "inquirer": "^9.1.1",
+    "jest": "^29.0.2"
+  }
+}
