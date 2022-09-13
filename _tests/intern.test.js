@@ -1,6 +1,6 @@
 // import intern constructor from libs folder //
 
-const Intern = require('../libs/intern.js');
+const Intern = require('../lib/intern.js');
 
 // creates an object for interns // 
 
@@ -9,7 +9,7 @@ test('creates an intern object', () => {
 
 // set expectations for intern constructor data //
 
-    expect(intern.school).toEqual(expect.any(string));
+    expect(intern.school).toEqual(expect.any(String));
 
 });
 

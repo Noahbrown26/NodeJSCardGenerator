@@ -1,6 +1,6 @@
 // import employee constructor from libs folder //
 
-const Employee = require('../libs/employee.js');
+const Employee = require('../lib/employee.js');
 
 // creates an object for employees // 
 
@@ -9,9 +9,9 @@ test('creates an employee object', () => {
 
 // set expectations for employee constructor data //
 
-    expect(employee.name).toEqual(expect.any(string));
-    expect(employee.id).toEqual(expect.any(string));
-    expect(employee.email).toEqual(expect.any(string));
+    expect(employee.name).toEqual(expect.any(String));
+    expect(employee.id).toEqual(expect.any(Number));
+    expect(employee.email).toEqual(expect.any(String));
 
 });
 

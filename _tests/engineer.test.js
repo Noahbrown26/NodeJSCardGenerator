@@ -1,6 +1,6 @@
 // import engineer constructor from libs folder //
 
-const Engineer = require('../libs/engineer.js');
+const Engineer = require('../lib/engineer.js');
 
 // creates an object for engineers // 
 
@@ -9,7 +9,7 @@ test('creates an engineer object', () => {
 
 // set expectations for engineer constructor data //
 
-    expect(engineer.github).toEqual(expect.any(string));
+    expect(engineer.github).toEqual(expect.any(String));
 
 });
 

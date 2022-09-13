@@ -72,36 +72,30 @@ generateHTML = (data) => {
         const employee = data[i];
         const employeeRole = employee.getRole(); 
     
-        switch(employeeRole) {
+         // manager function //
 
-            // manager function //
+         if (employeeRole === 'Manager') {
+            const managerCard = generateManager(employee);
 
-            case employeeRole === 'Manager':
-                const managerCard = generateManager(employee);
+            cardArray.push(managerCard);
+        }
 
-                cardArray.push(managerCard);
-              break;
+        // engineer function //
 
-              // engineer function // 
+        if (employeeRole === 'Engineer') {
+            const engineerCard = generateEngineer(employee);
 
-            case employeeRole === 'Engineer':
-                const engineerCard = generateEngineer(employee);
+            cardArray.push(engineerCard);
+        }
 
-                cardArray.push(engineerCard);
-            
-              break;
+        // intern function //
 
-              // intern function // 
+        if (employeeRole === 'Intern') {
+            const internCard = generateIntern(employee);
 
-            case employeeRole === 'Intern':
-                const internCard = generateIntern(employee);
-
-                cardArray.push(internCard);
-              break;
-          
-            default: 
-          }
-    
+            cardArray.push(internCard);
+        }
+        
     }
 
 // join the strings in the array //
