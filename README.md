@@ -19,8 +19,9 @@ This is the 10th challenge for the UW Coding bootcamp. For this challenge, we ha
 * Your ``index.html`` file should be created after all prompts are filled out
   
 ## Usage
-You can view a walkthrough video of the application [here](#)
+You can view a walkthrough video of the application [here](https://raw.githubusercontent.com/Noahbrown26/NodeJSCardGenerator/main/assets/demo.mp4)
 
+![](./assets/screenshot.PNG)
 ![](./assets/demo.gif)
   
 ## Questions
