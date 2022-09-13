@@ -1,0 +1,31 @@
+// import intern constructor from libs folder //
+
+const Intern = require('../libs/intern.js');
+
+// creates an object for interns // 
+
+test('creates an intern object', () => {
+    const intern = new Intern('Noah', 23, 'noahbrown2663@gmail.com', 'UW');
+
+// set expectations for intern constructor data //
+
+    expect(intern.school).toEqual(expect.any(string));
+
+});
+
+// gets intern school //
+
+test('gets intern school', () => {
+    const intern = new Intern('Noah', 23, 'noahbrown2663@gmail.com', 'UW');
+
+    expect(intern.getSchool()).toEqual(expect.stringContaining(intern.school.toString()));
+});
+
+
+// gets employee role //
+
+test('gets employee role', () => {
+    const intern = new Intern('Noah', 23, 'noahbrown2663@gmail.com', 'UW');
+
+    expect(intern.getRole()).toEqual("Intern");
+}); 
