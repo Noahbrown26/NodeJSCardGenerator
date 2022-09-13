@@ -22,7 +22,6 @@ This is the 10th challenge for the UW Coding bootcamp. For this challenge, we ha
 You can view a walkthrough video of the application [here](https://raw.githubusercontent.com/Noahbrown26/NodeJSCardGenerator/main/assets/demo.mp4)
 
 ![](./assets/screenshot.PNG)
-![](./assets/demo.gif)
   
 ## Questions
 Any Questions? Please reachout to me at Noahbrown2663@gmail.com
