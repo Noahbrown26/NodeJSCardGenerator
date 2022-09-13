@@ -21,7 +21,7 @@ This is the 10th challenge for the UW Coding bootcamp. For this challenge, we ha
 ## Usage
 You can view a walkthrough video of the application [here](#)
 
-![](./assets/demo.mp4)
+![](./assets/demo.gif)
   
 ## Questions
 Any Questions? Please reachout to me at Noahbrown2663@gmail.com
