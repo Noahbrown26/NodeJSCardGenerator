@@ -4,7 +4,7 @@
   
   
 ## Description
-This is the 10th challenge for the UW Coding bootcamp. For this challenge, we had to follow acceptance criteria to generate an HTML file with CSS styling that contains information that is input by the user. This project uses the Inquirer package for user prompts and Jest for testing.
+This is the 10th challenge for the UW Coding bootcamp. For this challenge, we had to follow acceptance criteria to generate an HTML file that contains information from user input. This project uses the Inquirer package for user prompts and Jest for testing. Bootstrap was used for the HTML cards and CSS styling.
   
 ## Table of Contents
 * [Description](#description)
