@@ -16,7 +16,7 @@ This is the 10th challenge for the UW Coding bootcamp. For this challenge, we ha
 * ``git clone`` the repository
 * Open a Node terminal and run the command ``npm install`` to install required packages
 * Run the command ``node index.js`` to initiate the card generator
-* Your ``index.html`` file should be created after all prompts are filled out
+* Your ``test.html`` file should be created after all prompts are filled out
   
 ## Usage
 You can view a walkthrough video of the application [here](https://raw.githubusercontent.com/Noahbrown26/NodeJSCardGenerator/main/assets/demo.mp4)
