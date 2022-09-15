@@ -4,7 +4,7 @@
   
   
 ## Description
-This was the 10th challenge in coding bootcamp journey.  For this challenge, we had to follow acceptance criteria to generate an HTML file that contains information from user input. This project uses the Inquirer package for user prompts and Jest for testing. Bootstrap was used for the HTML cards and CSS styling.
+This was the 10th week challenge in my coding bootcamp journey.  For this challenge, we had to follow acceptance criteria to generate an HTML file that contains information from user input. This project uses the Inquirer package for user prompts and Jest for testing. Bootstrap was used for the HTML cards and CSS styling.
   
 ## Table of Contents
 * [Description](#description)
